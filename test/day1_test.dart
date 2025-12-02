@@ -8,5 +8,6 @@ void main() {
 
   test('Part 1 - Test with puzzle data', () async {
     expect(await password('data/day1/input.txt'), 1048);
+    expect(await passwordWithMissedRefactorings('data/day1/input.txt'), 1048);
   });
 }
